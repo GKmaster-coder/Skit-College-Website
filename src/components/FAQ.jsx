@@ -114,7 +114,7 @@ const FAQ = () => {
 
               <div 
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                  openIndex === index ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+                  openIndex === index ? 'max-h-125 opacity-100' : 'max-h-0 opacity-0'
                 }`}
               >
                 <div className="p-6 pt-0 text-gray-600 leading-relaxed border-t border-slate-50 mt-2">
