@@ -16,11 +16,13 @@ import Contact from './pages/Contact';
 import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
 import HeaderTop from './layout/HeaderTop';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <HeaderTop />
         <Navbar />
         <Routes>
