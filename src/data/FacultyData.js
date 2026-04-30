@@ -47,7 +47,7 @@ export const facultyMembers = [
     qualification: "BBA",
     designation: "Marketing Head",
     category: "Administration",
-    image: "/faculty/ashutosh-shukla.jpg"
+    image: "/faculty/ashutosh-shukla.jpeg"
   },
   {
     name: "Mr. Saurabh Kamal",
@@ -110,7 +110,7 @@ export const facultyMembers = [
     qualification: "MA BBA",
     designation: "Admin",
     category: "Administration",
-    image: "/faculty/shikha-mishra.jpg"
+    image: "/faculty/shikha-mishra.jpeg"
   },
   {
     name: "Miss. Akansha",

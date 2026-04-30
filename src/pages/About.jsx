@@ -115,7 +115,7 @@ const About = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
               <div className="lg:col-span-4 sticky top-28">
                 <div className="relative group">
-                  <div className="absolute -inset-2 bg-gradient-to-r from-[#85b92b] to-[#cfb64e] rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                  <div className="absolute -inset-2 bg-linear-to-r from-[#85b92b] to-[#cfb64e] rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                   <div className="relative bg-white p-4 rounded-2xl border border-slate-100">
                     <div className="aspect-square bg-slate-200 rounded-xl mb-6 overflow-hidden">
                       <img 
@@ -131,7 +131,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="lg:col-span-8 bg-slate-50 p-8 md:p-12 rounded-[2rem] relative">
+              <div className="lg:col-span-8 bg-slate-50 p-8 md:p-12 rounded-4xl relative">
                 <FaQuoteLeft className="text-4xl text-[#85b92b]/20 absolute top-10 right-10" />
                 <h3 className="text-2xl font-serif font-bold text-slate-900 mb-6 border-b border-slate-200 pb-4">Message From Chairman</h3>
                 <div className="space-y-6 text-slate-700 leading-relaxed italic font-medium">
@@ -144,7 +144,7 @@ const About = () => {
 
             {/* Director Message */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start lg:flex-row-reverse">
-               <div className="lg:col-span-8 bg-slate-50 p-8 md:p-12 rounded-[2rem] relative border-r-8 border-[#7A1F29]">
+               <div className="lg:col-span-8 bg-slate-50 p-8 md:p-12 rounded-4xl relative border-r-8 border-[#7A1F29]">
                 <FaQuoteLeft className="text-4xl text-[#7A1F29]/20 absolute top-10 right-10" />
                 <h3 className="text-2xl font-serif font-bold text-slate-900 mb-6 border-b border-slate-200 pb-4">Message From Director</h3>
                 <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base">

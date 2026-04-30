@@ -19,7 +19,7 @@ const Faculty = () => {
             {facultyMembers.map((member, index) => (
               <div 
                 key={index} 
-                className="group relative bg-white rounded-[2rem] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 flex flex-col"
+                className="group relative bg-white rounded-4xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 flex flex-col"
               >
                 {/* Image Container */}
                 <div className="relative h-80 overflow-hidden">
@@ -49,7 +49,7 @@ const Faculty = () => {
                 </div>
 
                 {/* Info Section */}
-                <div className="p-6 pt-4 flex-grow flex flex-col justify-between">
+                <div className="p-6 pt-4 grow flex flex-col justify-between">
                   <div className="flex items-start gap-3">
                     <div className="mt-1">
                       <FaGraduationCap className="text-[#85b92b]" />
