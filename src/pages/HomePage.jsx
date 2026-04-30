@@ -5,6 +5,7 @@ import AboutUs from '../components/AboutUs'
 import Features from '../components/Features'
 import FAQ from '../components/FAQ'
 import LogoMarquee from '../components/LogoMarquee'
+import BrightStars from '../components/BrightStars'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
     <LogoMarquee/>
    <WhyChooseUs/>
    <Features/>
+   <BrightStars/>
    <FAQ/>
    </>
   )

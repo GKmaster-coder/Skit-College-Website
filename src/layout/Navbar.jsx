@@ -166,7 +166,7 @@ const Navbar = () => {
       <header className="w-full bg-white sticky top-0 z-100 shadow-[0_4px_24px_rgba(133,185,43,0.08)] font-[Outfit,sans-serif]">
 
         {/* ── Logo Section ── */}
-        <div className="flex items-center justify-between px-7 py-4 border-b border-gray-100">
+        <div className="flex items-center justify-between px-7 py-1 border-b border-gray-100">
 
           {/* Left info — desktop only */}
           <div className="hidden lg:flex items-start gap-3">
