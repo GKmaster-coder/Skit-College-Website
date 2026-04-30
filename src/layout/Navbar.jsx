@@ -195,7 +195,7 @@ const Navbar = () => {
     <>
       <style>{`@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Outfit:wght@300;400;500;600;700&display=swap');`}</style>
 
-      <header className="w-full bg-white sticky top-0 z-100 shadow-[0_4px_24px_rgba(133,185,43,0.08)] font-[Outfit,sans-serif]">
+      <header className="w-full bg-white sticky top-0 z-9999 shadow-[0_4px_24px_rgba(133,185,43,0.08)] font-[Outfit,sans-serif]">
 
         {/* ── Logo Section ── */}
         <div className="flex items-center justify-between px-7 py-1 border-b border-gray-100">
