@@ -57,7 +57,7 @@ const menuItems = [
   { name: 'About', path: '/about' },
   { name: 'Course', path: '/course' },
   { name: 'Faculty', path: '/faculty' },
-  { name: 'Gallery', path: '/gallery' },
+  { name: 'Gallery', sub: [{ name: 'Infra', path: '/infra-gallery' }, { name: 'Event', path: '/event-gallery' }] },
   { name: 'Performer', sub: [{ name: 'Placement', path: '/placement' }, { name: 'Result', path: '/result' }] },
   { name: 'Download', path: '/download' },
   { name: 'Notice', path: '/notice' },

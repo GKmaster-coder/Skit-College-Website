@@ -6,12 +6,14 @@ import Features from '../components/Features'
 import FAQ from '../components/FAQ'
 import LogoMarquee from '../components/LogoMarquee'
 import BrightStars from '../components/BrightStars'
+import StatsSection from '../components/StatsSection'
 
 const HomePage = () => {
   return (
    <>
    <HeroSection/>
    <AboutUs/>
+   <StatsSection/>
     <LogoMarquee/>
    <WhyChooseUs/>
    <Features/>

@@ -4,7 +4,6 @@ import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Course from './pages/Course';
 import Faculty from './pages/Faculty';
-import Gallery from './pages/Gallery';
 import Placement from './pages/Placement';
 import Result from './pages/Result';
 import Download from './pages/Download';
@@ -17,6 +16,8 @@ import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
 import HeaderTop from './layout/HeaderTop';
 import ScrollToTop from './components/ScrollToTop';
+import EventGallery from './pages/EventGallery';
+import InfraGallery from './pages/InfraGallery';
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/course" element={<Course />} />
           <Route path="/faculty" element={<Faculty />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/infra-gallery" element={<InfraGallery />} />
+          <Route path="/event-gallery" element={<EventGallery />} />
           <Route path="/placement" element={<Placement />} />
           <Route path="/result" element={<Result />} />
           <Route path="/download" element={<Download />} />

@@ -4,11 +4,11 @@ const LogoMarquee = () => {
     // Replace these with your actual partner/company logo paths
     const logos = [
         { id: 1, src: "/logo/tcs.png", alt: "Partner 1" },
-        { id: 1, src: "/logo/cisco.png", alt: "Partner 2" },
-        { id: 1, src: "/logo/tcs.png", alt: "Partner 3" },
-        { id: 1, src: "/logo/cisco.png", alt: "Partner 4" },
-        { id: 1, src: "/logo/tcs.png", alt: "Partner 5" },
-        { id: 1, src: "/logo/tcs.png", alt: "Partner 6" },
+        { id: 2, src: "/logo/cisco.png", alt: "Partner 2" },
+        { id: 3, src: "/logo/tcs.png", alt: "Partner 3" },
+        { id: 4, src: "/logo/cisco.png", alt: "Partner 4" },
+        { id: 5, src: "/logo/tcs.png", alt: "Partner 5" },
+        { id: 6, src: "/logo/tcs.png", alt: "Partner 6" },
     ];
 
     return (
@@ -50,7 +50,7 @@ const LogoMarquee = () => {
             </div>
 
             {/* Required Tailwind Custom Animation */}
-            <style jsx>{`
+            <style>{`
         @keyframes marquee {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }
