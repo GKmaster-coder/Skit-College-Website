@@ -1,9 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import {
   FaFacebookF,
   FaInstagram,
   FaYoutube,
-  FaPhoneAlt,
   FaRegEnvelope,
   FaMapMarkerAlt,
   FaChevronUp
@@ -61,11 +61,11 @@ const Footer = () => {
         <div className="lg:col-span-3">
           <h3 className="font-serif text-2xl font-bold mb-6 border-b border-white/20 pb-2 inline-block">Useful Links</h3>
           <ul className={linkListClass}>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">CSJM University</a></li>
-            <li><a href="#">Result</a></li>
-            <li><a href="#">Scholarship (U.P.)</a></li>
-            <li><a href="#">SAWAYAM Notes</a></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><a href="https://www.csjmu.ac.in/" target="_blank" rel="noopener noreferrer">CSJM University</a></li>
+            <li><NavLink to="/result">Result</NavLink></li>
+            <li><a href="https://scholarship.up.gov.in/" target="_blank" rel="noopener noreferrer">Scholarship (U.P.)</a></li>
+            <li><a href="https://swayam.gov.in/" target="_blank" rel="noopener noreferrer">SWAYAM Notes</a></li>
           </ul>
         </div>
 
@@ -73,11 +73,11 @@ const Footer = () => {
         <div className="lg:col-span-2">
           <h3 className="font-serif text-2xl font-bold mb-6 border-b border-white/20 pb-2 inline-block">Our Services</h3>
           <ul className={linkListClass}>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Course</a></li>
-            <li><a href="#">Faculty</a></li>
-            <li><a href="#">Infrastructure Gallery</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/course">Course</NavLink></li>
+            <li><NavLink to="/faculty">Faculty</NavLink></li>
+            <li><NavLink to="/infra-gallery">Infrastructure Gallery</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
         </div>
 

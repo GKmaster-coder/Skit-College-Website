@@ -54,10 +54,15 @@ const HeroSection = () => {
         <div className="relative z-10 w-full max-w-6xl mx-auto px-6 py-20 flex flex-col items-center text-center">
 
           {/* Admission Badge */}
-          <div className="anim-1 inline-flex items-center gap-2 bg-[#85b92b] text-white text-xs font-bold uppercase tracking-[0.2em] px-5 py-2 rounded-full mb-8 shadow-lg shadow-[#85b92b]/30">
+          <a
+            href="https://skitedu.in/register"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="anim-1 inline-flex items-center gap-2 bg-[#85b92b] text-white text-xs font-bold uppercase tracking-[0.2em] px-5 py-2 rounded-full mb-8 shadow-lg shadow-[#85b92b]/30 no-underline hover:opacity-90 transition-opacity"
+          >
             <Sparkles className="w-3.5 h-3.5" />
             Admissions Open 2025
-          </div>
+          </a>
 
           {/* Main Heading */}
           <h1 className="anim-2 poppins text-white text-5xl md:text-7xl font-black leading-[1.1] mb-5 drop-shadow-xl">
@@ -153,10 +158,15 @@ const HeroSection = () => {
 
           {/* ── CTA Button ── */}
           <div className="anim-5 flex flex-col sm:flex-row items-center gap-4">
-            <button className="btn-primary flex items-center gap-3 bg-[#85b92b] text-white font-bold text-base px-10 py-4 rounded-xl shadow-lg shadow-[#85b92b]/30 border-none cursor-pointer">
+            <a
+              href="https://skitedu.in/register"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary flex items-center gap-3 bg-[#85b92b] text-white font-bold text-base px-10 py-4 rounded-xl shadow-lg shadow-[#85b92b]/30 border-none cursor-pointer no-underline"
+            >
               Apply Now for BCA & BBA
               <ArrowRight size={20} />
-            </button>
+            </a>
             <button className="text-white/80 font-semibold text-sm underline underline-offset-4 hover:text-white transition-colors cursor-pointer bg-transparent border-none">
               Learn more about us →
             </button>

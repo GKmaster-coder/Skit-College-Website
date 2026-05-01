@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 const PhoneIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -35,44 +34,38 @@ const HeaderTop = () => {
         </span>
       </div>
 
-      {/* Right Side with NavLinks */}
+      {/* Right Side Links */}
       <div className="flex items-center gap-4">
-        <NavLink
-          to="/department-login"
-          className={({ isActive }) =>
-            `text-white text-xs no-underline hover:opacity-80 transition-opacity ${
-              isActive ? 'font-semibold underline' : ''
-            }`
-          }
+        <a
+          href="https://skitlog.netlify.app/login"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-xs no-underline hover:opacity-80 transition-opacity"
         >
           Department Login
-        </NavLink>
+        </a>
 
         <div className="w-px h-3.5 bg-white/40" />
 
-        <NavLink
-          to="/student-login"
-          className={({ isActive }) =>
-            `text-white text-xs no-underline hover:opacity-80 transition-opacity ${
-              isActive ? 'font-semibold underline' : ''
-            }`
-          }
+        <a
+          href="https://skitlog.netlify.app/login"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-xs no-underline hover:opacity-80 transition-opacity"
         >
           Student Login
-        </NavLink>
+        </a>
 
         <div className="w-px h-3.5 bg-white/40" />
 
-        <NavLink
-          to="/smart-portal"
-          className={({ isActive }) =>
-            `text-white text-xs no-underline hover:opacity-80 transition-opacity font-semibold ${
-              isActive ? 'underline' : ''
-            }`
-          }
+        <a
+          href="https://csjmu.samarth.edu.in/index.php/studentlogin/registration/register"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white text-xs no-underline hover:opacity-80 transition-opacity font-semibold"
         >
-          Smart Portal
-        </NavLink>
+          Samarth Portal
+        </a>
       </div>
     </div>
   );
