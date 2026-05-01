@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Sparkles, GraduationCap, BookOpen } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 // Design tokens matching the Navbar
 // Primary Green : #85b92b
@@ -112,10 +113,12 @@ const HeroSection = () => {
                     </span>
                   ))}
                 </div>
-                <button className="btn-outline flex items-center gap-2 border-2 border-[#85b92b] text-[#85b92b] font-bold text-sm px-5 py-2.5 rounded-xl bg-transparent cursor-pointer">
-                  Explore Syllabus
-                  <ArrowRight size={16} />
-                </button>
+                <NavLink to="/course">
+                  <button className="btn-outline flex items-center gap-2 border-2 border-[#85b92b] text-[#85b92b] font-bold text-sm px-5 py-2.5 rounded-xl bg-transparent cursor-pointer transition-all duration-300 hover:bg-[#85b92b] hover:text-white">
+                    Explore Syllabus
+                    <ArrowRight size={16} />
+                  </button>
+                </NavLink>
               </div>
             </div>
 
@@ -148,10 +151,12 @@ const HeroSection = () => {
                     </span>
                   ))}
                 </div>
-                <button className="btn-outline flex items-center gap-2 border-2 border-[#6a9420] text-[#6a9420] font-bold text-sm px-5 py-2.5 rounded-xl bg-transparent cursor-pointer">
-                  Explore Syllabus
-                  <ArrowRight size={16} />
-                </button>
+              <NavLink to="/course">
+  <button className="btn-outline flex items-center gap-2 border-2 border-[#6a9420] text-[#6a9420] font-bold text-sm px-5 py-2.5 rounded-xl bg-transparent cursor-pointer transition-all duration-300 hover:bg-[#6a9420] hover:text-white">
+    Explore Syllabus
+    <ArrowRight size={16} />
+  </button>
+</NavLink>
               </div>
             </div>
           </div>

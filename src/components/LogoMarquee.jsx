@@ -5,14 +5,16 @@ const LogoMarquee = () => {
     const logos = [
         { id: 1, src: "/logo/tcs.png", alt: "Partner 1" },
         { id: 2, src: "/logo/cisco.png", alt: "Partner 2" },
-        { id: 3, src: "/logo/tcs.png", alt: "Partner 3" },
-        { id: 4, src: "/logo/cisco.png", alt: "Partner 4" },
-        { id: 5, src: "/logo/tcs.png", alt: "Partner 5" },
-        { id: 6, src: "/logo/tcs.png", alt: "Partner 6" },
+        { id: 3, src: "/logo/cognizant.png", alt: "Partner 3" },
+        { id: 4, src: "/logo/infosys.png", alt: "Partner 4" },
+        { id: 5, src: "/logo/lt.png", alt: "Partner 5" },
+        { id: 6, src: "/logo/myob.png", alt: "Partner 6" },
+        { id: 7, src: "/logo/citrus.png", alt: "Partner 7" },
+        { id: 8, src: "/logo/wipro.png", alt: "Partner 8" },
     ];
 
     return (
-        <section className="py-12 bg-white overflow-hidden">
+        <section className="py-8 bg-white overflow-hidden">
             <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
                 <h3 className="text-slate-400 font-bold uppercase tracking-[0.3em] text-xs">
                     Our Students Placed In Top Companies
