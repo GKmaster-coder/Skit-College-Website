@@ -39,7 +39,7 @@ const HeroSection = () => {
         {/* ── Background ── */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/college-image.jpeg"
+            src="/college.webp"
             alt="SKIT Campus"
             className="w-full h-full object-cover"
           />
@@ -66,7 +66,7 @@ const HeroSection = () => {
           </a>
 
           {/* Main Heading */}
-          <h1 className="anim-2 poppins text-white text-5xl md:text-7xl font-black leading-[1.1] mb-5 drop-shadow-xl">
+          <h1 className="anim-2 poppins text-white text-5xl md:text-7xl font-semibold leading-[1.1] mb-5 drop-shadow-xl">
             Welcome to{' '}
             <span className="text-[#85b92b]">SKIT</span>
           </h1>

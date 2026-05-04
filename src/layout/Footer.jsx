@@ -39,12 +39,12 @@ const Footer = () => {
 
           <div className="flex gap-4">
             {[
-              { icon: FaFacebookF, href: "#" },
+              { icon: FaFacebookF, href: "https://www.facebook.com/SKITKD64" },
               { icon: FaInstagram, href: "#" },
-              { icon: FaXTwitter, href: "#" },
-              { icon: FaYoutube, href: "#" },
+              { icon: FaXTwitter, href: "https://x.com/CollegeSkit" },
+              { icon: FaYoutube, href: "www.youtube.com/@skitcollege" },
             ].map((social, index) => (
-              <a
+              <a 
                 key={index}
                 href={social.href}
                 className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-lg hover:bg-white/30 hover:scale-110 transition-all"

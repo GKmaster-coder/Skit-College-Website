@@ -91,7 +91,7 @@ const Placement = () => {
           />
 
           {/* ACADEMIC TOPPERS SPOTLIGHT */}
-          <div className="mt-32 pt-20 border-t border-slate-100">
+          {/* <div className="mt-32 pt-20 border-t border-slate-100">
             <div className="text-center mb-16">
               <h3 className="text-3xl font-serif font-bold text-slate-900">Academic Excellence</h3>
               <p className="text-slate-500 mt-2">Current year top performers across departments</p>
@@ -111,7 +111,7 @@ const Placement = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
         </div>
       </section>
@@ -162,7 +162,7 @@ const PlacementGrid = ({ title, icon, accentColor, data, type }) => (
       {data.map((item, index) => (
         <div key={index} className="group p-6 bg-white border border-slate-100 rounded-3xl hover:border-[#85b92b] hover:shadow-lg transition-all duration-300 relative overflow-hidden">
           <div className="flex items-start gap-4">
-            <div className="w-12 h-12 rounded-full bg-slate-50 flex-shrink-0 overflow-hidden border border-slate-100">
+            <div className="w-12 h-12 rounded-full bg-slate-50 shrink-0 overflow-hidden border border-slate-100">
               <StudentAvatar name={item.name} image={item.image} />
             </div>
             <div className="z-10">
